@@ -1,0 +1,27 @@
+.right-icon{
+    margin-left:10px ;
+}
+
+.example-header{
+    text-align: center;
+}
+
+.example-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.example-card{
+    min-height: 300px;
+    width: 22%;
+    position: relative;
+}
+
+.example-card h3{
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+}

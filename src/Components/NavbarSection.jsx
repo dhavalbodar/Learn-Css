@@ -13,18 +13,24 @@ const NavbarSection = ({ navLinkList }) => {
         </div>
         <div className={styles["nav-links"]}>
           <ul>
-            {navLinkList.map((data) => {
+            {navLinkList.map((data, index) => {
               return (
-                <li>
-                  <a className={styles['hover-link']} href={data.link}>{data.label}</a>
+                <li key={index}>
+                  <a className={styles["hover-link"]} href={data.link}>
+                    {data.label}
+                  </a>
                 </li>
               );
             })}
             <li>
-              <a className={styles['hover-link']} href="#">Sign in</a>
+              <a className={`primary-btn ${styles["hover-link"]}`} href="#">
+                Sign in
+              </a>
             </li>
             <li>
-              <a className={styles['hover-link']} href="#">Sign up</a>
+              <a className={`secondary-btn ${styles["hover-link"]}`} href="#">
+                Sign up
+              </a>
             </li>
           </ul>
         </div>

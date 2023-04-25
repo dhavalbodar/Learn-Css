@@ -1,0 +1,39 @@
+.info-section{
+    margin-top: 50px;
+}
+
+.small-header{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.chartmogui-img{
+    display: block !important;
+    width: 180px !important;
+}
+
+.first-user-info{
+    display: flex !important;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.first-user-info img{
+    width: 50px !important;
+}
+
+.info1-content-section{
+    flex-basis: 480px;
+}
+
+.info1-section{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap !important;
+}
+
+.info1-section img{
+    width:  550px;
+}

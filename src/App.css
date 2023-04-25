@@ -10,7 +10,7 @@
 /* Colors variables  */
 :root{
   --primary-text-color: #183b56;
-  --secoundary-text-color: #577592;
+  --secondary-text-color: #577592;
   --accent-color: #2294ed;
   --accent-color-dark : #1d69a3;
   --padding-inline-section: 20px;
@@ -31,7 +31,7 @@ h3{
 p{
   font-family: 'Roboto',sans-serif;
   font-size: 1.25rem;
-  color: var(--secoundary-text-color);
+  color: var(--secondary-text-color);
   line-height: 1.8rem;
 }
 
@@ -54,4 +54,31 @@ a{
 
 ul{
   list-style: none;
+}
+
+.primary-btn{
+  border: 1px solid var(--secondary-text-color);
+  padding: 10px 26px;
+  border-radius: 5px;
+  transition: 0.2s ease-out;
+  font-weight: 500;
+}
+
+.primary-btn:hover{
+  border-color: var(--accent-color) ;
+  color: #1d69a3 !important;
+}
+
+.secondary-btn{
+  background-color: #2294ed;
+  padding: 10px 26px;
+  border-radius: 5px;
+  transition: 0.2s ease-out;
+  font-weight: 500;
+  color: white;
+}
+
+.secondary-btn:hover{
+  background-color: var(--accent-color-dark); 
+  color: white !important;
 }
